@@ -1,0 +1,19 @@
+#ifndef PAYLOAD_H
+#define PAYLOAD_H
+
+enum PAYLOAD {
+    LOGIN = 0x01,
+    REGISTER = 0x02,
+    SALT_REQUEST = 0x03,
+    GEN_PASS = 0x04,
+    SEND_PASS_START = 0x05,
+    SEND_PASS = 0x06,
+    PASS_REQUEST = 0x07,
+    PASS_DEL = 0x08,
+    EMAIL_CHANGE = 0x09,
+    PASS_CHANGE = 0x0A,
+    RECOVERY_CODE_REQUEST = 0x0B,
+    RECOVERY_CODE_CHECK = 0x0C
+};
+
+#endif  // PAYLOAD_H
